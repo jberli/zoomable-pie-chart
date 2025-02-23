@@ -10,7 +10,9 @@ while the children takes their place on the chart. The idea is to work as a **zo
 with only one level visible. You can replace the children by an AJAX call to retrieve the children
 from the server or simply create your own dataset and modify the code to fit your needs.
 
-![alt text](https://raw.githubusercontent.com/jberli/zoomable-pie-chart/refs/heads/main/piechart-interact.gif "Interactacle pie chart")
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jberli/zoomable-pie-chart/refs/heads/main/piechart-interact.gif" alt="Pie chart GIF"/>
+</p>
 
 ```html
 <div id="container">
