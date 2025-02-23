@@ -1,5 +1,5 @@
 # zoomable-pie-chart
-A d3.js pie chart with zoomable children.
+A d3.js pie chart with zoomable children. Here is a working [codepen](https://codepen.io/jberli/pen/jEOrPoq) example.
 
 ```html
 <div id="container">
