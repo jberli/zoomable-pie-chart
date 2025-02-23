@@ -1,4 +1,7 @@
 # zoomable-pie-chart
+
+![alt text](https://raw.githubusercontent.com/jberli/zoomable-pie-chart/refs/heads/main/piechart-interact.gif "Interactacle pie chart")
+
 A d3.js pie chart with zoomable children. Here is a working [codepen](https://codepen.io/jberli/pen/jEOrPoq) example.
 
 ```html
