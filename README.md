@@ -1,8 +1,16 @@
 # zoomable-pie-chart
 
-![alt text](https://raw.githubusercontent.com/jberli/zoomable-pie-chart/refs/heads/main/piechart-interact.gif "Interactacle pie chart")
+## A d3.js pie chart with zoomable children.
 
-A d3.js pie chart with zoomable children. Here is a working [codepen](https://codepen.io/jberli/pen/jEOrPoq) example.
+Here is a working [codepen](https://codepen.io/jberli/pen/jEOrPoq) example.
+
+This is an example of a zoomable pie chart using [d3.js](https://d3js.org/). When you **click on a slice** of the pie chart,
+the slice is **replaced by its children** and a transition is launched, squishing the parents until they disappear
+while the children takes their place on the chart. The idea is to work as a **zoomable sunburst** in a way, but
+with only one level visible. You can replace the children by an AJAX call to retrieve the children
+from the server or simply create your own dataset and modify the code to fit your needs.
+
+![alt text](https://raw.githubusercontent.com/jberli/zoomable-pie-chart/refs/heads/main/piechart-interact.gif "Interactacle pie chart")
 
 ```html
 <div id="container">
